@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mrfre.colorgame.HighScores">
+
+    <TextView
+        android:id="@+id/highscoresText"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:gravity="top|center"
+        android:text="High Scores"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/highscoresText"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/winnerspodium" />
+
+    <TextView
+        android:id="@+id/nameOne"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginTop="48dp"
+        android:text="placeholder"
+        app:layout_constraintEnd_toStartOf="@+id/highscoresText"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/periods"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="48dp"
+        android:text=".............................................."
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toStartOf="@+id/highscoresText"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/highscoresText"
+        app:layout_constraintTop_toTopOf="@+id/highscoresText" />
+
+    <TextView
+        android:id="@+id/scoreOne"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="48dp"
+        android:text="placeholder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/highscoresText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameTwo"
+        android:layout_width="76dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="16dp"
+        android:text="placeholder"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/nameOne" />
+
+    <TextView
+        android:id="@+id/periodsTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text=".............................................."
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/periods" />
+
+    <TextView
+        android:id="@+id/scoreTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="placeholder"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/scoreOne" />
+
+    <TextView
+        android:id="@+id/nameThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="placeholder"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/nameTwo" />
+
+    <TextView
+        android:id="@+id/periodsThree"
+        android:layout_width="159dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="16dp"
+        android:text="................................................."
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toStartOf="@+id/scoreThree"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toEndOf="@+id/nameThree"
+        app:layout_constraintTop_toBottomOf="@+id/periodsTwo" />
+
+    <TextView
+        android:id="@+id/scoreThree"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginTop="16dp"
+        android:text="placeholder"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/scoreTwo" />
+
+    <Button
+        android:id="@+id/mainMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:onClick="mmClick"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.779"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.239" />
+</android.support.constraint.ConstraintLayout>

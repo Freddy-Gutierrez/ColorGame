@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Color Game</string>
+    <string name="title_activity_score_menu">ScoreMenu</string>
+</resources>

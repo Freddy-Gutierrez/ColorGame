@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mrfre.colorgame.GamePlay">
+
+
+    <ImageButton
+        android:id="@+id/redCircle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/redcircle"
+        android:onClick="redClick"
+        android:paddingBottom="500dp"
+        android:paddingLeft="500dp"
+        android:paddingRight="500dp"
+        android:paddingTop="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/blueCircle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bluecircle"
+        android:onClick="blueClick"
+        android:paddingBottom="500dp"
+        android:paddingLeft="500dp"
+        android:paddingRight="500dp"
+        android:paddingTop="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <ImageButton
+        android:id="@+id/yellowCircle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/yellowcircle"
+        android:onClick="yellowClick"
+        android:paddingBottom="500dp"
+        android:paddingLeft="500dp"
+        android:paddingRight="500dp"
+        android:paddingTop="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/magentaCircle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/magentacircle"
+        android:onClick="magClick"
+        android:paddingBottom="500dp"
+        android:paddingLeft="500dp"
+        android:paddingRight="500dp"
+        android:paddingTop="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/greenCircle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/green"
+        android:onClick="greenClick"
+        android:paddingBottom="500dp"
+        android:paddingLeft="500dp"
+        android:paddingRight="500dp"
+        android:paddingTop="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/gameWord"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="blue"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="123dp"
+        android:layout_height="22dp"
+        android:gravity="left|center"
+        android:text="# Correct: 0"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="192dp"
+        android:layout_height="31dp"
+        android:gravity="left|center"
+        android:text="Seconds remaining:"
+        android:textIsSelectable="false"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</android.support.constraint.ConstraintLayout>
